@@ -41,3 +41,35 @@ body {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
     text-decoration: none; /* Prevent underline on hover */
 }
+
+/* Telegram button styling */
+.btn-telegram {
+    background-color: white; /* White background */
+    color: #000; /* Black text */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Increase corner radius */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+}
+
+.btn-telegram:hover {
+    background-color: white; /* White background */
+    transform: translateY(-2px); /* Slightly lift button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+    text-decoration: none; /* Prevent underline on hover */
+}
+
+/* Center buttons */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-3 {
+    gap: 1rem; /* Adds space between buttons */
+}
