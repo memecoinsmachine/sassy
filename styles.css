@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background covers the whole screen */
+}
+
+.portrait-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits inside the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border: 5px solid white; /* Optional white border for contrast */
+}
+
+.icon-container {
+    margin-top: 20px; /* Adds space between portrait and the icon */
+}
+
+.icon-link {
+    display: inline-block;
+}
+
+.icon {
+    width: 50px; /* Adjust size of the icon */
+    height:
