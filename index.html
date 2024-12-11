@@ -8,28 +8,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+        .bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .coming-soon {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5rem;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body class="d-flex flex-column justify-content-center align-items-center vh-100 bg-cover" style="background-image: url('prison.jpeg');">
+<body class="d-flex flex-column justify-content-center align-items-center vh-100">
+    <video class="bg-video" autoplay muted loop>
+        <source src="pikawallpaper.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
     <div class="text-center">
         <div class="mb-3">
-            <img src="JAYZ.jpg" alt="Sassy Portrait" 
+            <img src="pikahelm.png" alt="Sassy Portrait" 
             class="rounded-circle border border-white shadow" 
             style="width: 200px; height: 200px; object-fit: contain; 
                    border-width: 10px; border-radius: 50%; background-color: white;">
        
         </div>
         <div class="d-flex justify-content-center gap-3">
-            <a href="https://x.com/straighttoJayl" target="_blank" 
+            <a href="https://x.com/pikachuwithhelm" target="_blank" 
                class="btn btn-twitter shadow">
                 <img src="twitter.png" alt="Twitter Icon" class="me-2" style="width: 24px; height: 24px;"> 
                 Twitter
             </a>
-            <a href="https://t.me/+rfI4PGpIqqNhZTRl" target="_blank" 
+            <a href="https://t.me/+86EpKr13CfI1OWNl" target="_blank" 
                class="btn btn-telegram shadow">
                 <img src="telegram.png" alt="Telegram Icon" class="me-2" style="width: 24px; height: 24px;"> 
                 Telegram
             </a>
         </div>
+        <div class="coming-soon">CA: COMING SOON</div>
     </div>
 
     <!-- Bootstrap JS and Popper -->
